@@ -45,7 +45,7 @@ bot.on('message', async (ctx, next) => {
                   ]
                       }
            , parse_mode: "HTML"});  
-           
+           return (next)
             }
         }
     }
