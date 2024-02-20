@@ -42,7 +42,9 @@ bot.on('message', async (ctx, next) => {
                       /* One button */
                       //[ { text: "❓Hướng Dẫn", url: "https://t.me/ChotDonBot" }, { text: "🔥 15 Voucher 50K", url: "https://www.facebook.com/groups/salelameofficial/"}]
                   ]
-          }})
+                      }
+           , parse_mode: "HTML"});  
+           break;
             }
         }
     }
