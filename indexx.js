@@ -34,7 +34,7 @@ bot.on('message', async (ctx, next) => {
         if (linkRegex.test(message)) {
             const url = message.match(linkRegex)[0]
             if (pee.test(url)){
-          ctx.replyWithPhoto(`https://shopgarena.net/wp-content/uploads/2023/07/Meo-Xin-Loi-Hai-Huoc.jpg`,{caption: "<b>Add Video đã bị khóa tính năng, nếu tài khoản của bạn còn có thể add Video hãy giúp mọi người ở đây nhé!</b> \n<b><i>Tất cả đều miễn phí! Hoa hồng là của bạn! 🎉</i></b>", message_thread_id: threadID, reply_markup: {
+          ctx.replyWithPhoto(`https://shopgarena.net/wp-content/uploads/2023/07/Meo-Xin-Loi-Hai-Huoc.jpg`,{caption: `<b>Add Video đã bị khóa tính năng, nếu tài khoản của bạn còn có thể add Video hãy giúp mọi người ở đây nhé!</b> \n<b><i>Tất cả đều miễn phí! Hoa hồng là của bạn! 🎉</i></b>`, message_thread_id: threadID, reply_markup: {
                     inline_keyboard: [
                       /* Inline buttons. 2 side-by-side */
                       [ { text: "💯 Đến Check 💯", url: "https://t.me/CoNenChotDon/1465" }, { text: "💯 Add Live 💯", url: "https://t.me/CoNenChotDon/1464" }],
